@@ -1,8 +1,9 @@
+//models/cars.js
 exports.definition = {
 	config: {
 
 		adapter: {
-			type: "sql",
+			type: "properties",
 			collection_name: "cars"
 		}
 	},
